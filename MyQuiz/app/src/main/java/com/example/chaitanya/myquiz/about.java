@@ -14,7 +14,7 @@ public class about extends Activity {
         setContentView(R.layout.about);
 
         textView = (TextView) findViewById(R.id.textView);
-        String htmlText = "<p> Chaitanya Parashar </p><p>Jaspreet Kaur</p> <p> +91 8437538555 </p> <p> cparashar007@gmail.com </p>";
+        String htmlText = "<p> Chaitanya Parashar </p><p> +91 8437538555 </p> <p> cparashar007@gmail.com </p>";
         textView.setText(Html.fromHtml(htmlText));
     }
 }
